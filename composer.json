@@ -1,0 +1,23 @@
+{
+  "name": "leonardvujanic/hands-on-phpspec",
+  "authors": [
+    {
+      "name": "Leo Vujanić",
+      "email": "leonard.vujanic@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "spec\\": "spec/"
+    }
+  },
+  "require": {},
+  "require-dev": {
+    "phpspec/phpspec": "^4.3"
+  }
+}
